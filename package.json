@@ -1,0 +1,35 @@
+{
+  "name": "RiadKatby",
+  "version": "1.0.0",
+  "description": "Hi there 👋 My name is Mohammad Reda KATBY",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RiadKatby/katby"
+  },
+  "author": "Mohammad Reda KATBY <morikapt@gmail.com> (https://softwarewins.wordpress.com//)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RiadKatby/katby/issues"
+  },
+  "homepage": "https://github.com/RiadKatby/katby#readme",
+  "bin": {
+    "RiadKatby": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "@types/inquirer": "^8.2.1",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "commander": "^9.2.0",
+    "inquirer": "^8.2.4",
+    "open": "^8.4.0"
+  }
+}
