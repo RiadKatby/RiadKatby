@@ -1,35 +1,31 @@
 {
-  "name": "RiadKatby",
-  "version": "1.0.0",
-  "description": "Hi there 👋 My name is Mohammad Reda KATBY",
-  "main": "index.js",
+  "name": "riad",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/RiadKatby/katby"
-  },
-  "author": "Mohammad Reda KATBY <morikapt@gmail.com> (https://softwarewins.wordpress.com//)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/RiadKatby/katby/issues"
-  },
-  "homepage": "https://github.com/RiadKatby/katby#readme",
-  "bin": {
-    "RiadKatby": "./index.js"
-  },
-  "files": [
-    "index.js"
-  ],
-  "devDependencies": {
-    "@types/inquirer": "^8.2.1",
-    "typescript": "^4.7.2"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "commander": "^9.2.0",
-    "inquirer": "^8.2.4",
-    "open": "^8.4.0"
+    "@mdx-js/loader": "^2.1.5",
+    "@mdx-js/react": "^2.1.5",
+    "@next/mdx": "^13.0.3",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.8",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.3",
+    "next": "13.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "4.8.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.8",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4"
   }
 }
