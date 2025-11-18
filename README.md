@@ -51,7 +51,7 @@ I currently lead major AI transformation programs, driving initiatives such as:
 - [LinkedIn](https://www.linkedin.com/in/morika): thought leadership on AI, ML, and Data Science
 - [Twitter/X](https://x.com/morikapt): threads on AI, ML, SDLC, and research
 - [Web Site](https://reda.work)
-Also… if you’re a good swimmer, challenge accepted 🏊😉
+- Also… if you’re a good swimmer, challenge accepted 🏊😉
 ---
 
 # 📌 Quick Facts
