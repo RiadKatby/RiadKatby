@@ -33,10 +33,8 @@ I currently lead major AI transformation programs, driving initiatives such as:
 # ❤️ Community Work & Open Source
 
 - [**Machine Learning for Everyone**](https://a.co/d/dUIH9sH) – Arabic ML literacy series
-
   A series of Arabic articles simplifying AI/ML for new learners.
 - [**ZeroORM**](https://www.nuget.org/packages/ZeroORM/) – micro ORM for .NET
-
   A micro ORM for .NET built around simplicity and zero learning curve.
 - [**Workshops & sessions**](https://www.linkedin.com/in/morika/details/volunteering-experiences/) 
   - Building AI Agents & chatbots
