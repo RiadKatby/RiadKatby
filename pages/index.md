@@ -1,41 +1,62 @@
-# Hi there 👋 My name is _Reda_
+# 👋 Hi there — I’m **Mohammed**
 
-I'm Creative problem solver, Technology Advocate, and Evangelist in both fields of Software Development and Machine Learning.
+A Technology Leader, AI Solutions Architect, and Researcher working at the intersection of **AI Agents**, **Enterprise Engineering**, and **Machine Learning**. I specialize in turning cutting-edge AI into scalable systems that deliver real impact across organizations.
 
-A Solution Engineer who sees sharply (If you know what I mean 😉) business opportunities. Having led both the code and scientific development of enterprise solutions and machine learning models that are currently in production while keep proving value back to the business during development. Most effective in **Microsoft Technologies**, **Python**, **SciKit-Learn/Tensorflow**, and **SQL**.
+I currently lead major AI transformation programs, driving initiatives such as:  
+- **AI Agent Factory**  
+- **AI-Native SDLC Transformation**  
+- **AI Agent Store platforms**  
+- **Talk to Map product**
 
-I work on wide range variety of project from Information Systems to Machine Learning and Deep Learning Services
+---
 
-- Natural Language Processing / Classical Machine Learning for Arabic Language to boost Capabilities of Microsoft Bot Framework
-- Natural Language Processing / Deep Learning for Inappropriate Content Filtering from users' comments
-- Computer Vision / Deep Learning for find similarity index between logos
-- Lead Migrating DevOps Automation into Microsoft Azure for about 300+ Engineers
-- Adopt MLOps for Machine Learning and Deep Learning Enabled Services
+# 🔥 What I Do
 
-Also I make effort for GitHub Community 🥰 and Open Source Project Contributions
+### 🚀 AI & Machine Learning
+- Foundation Models (LLMs + Vision), SAM, LoRA, multimodal reasoning
+- RAG systems for large document corpora (Redis, Chroma, LangChain
+- Geospatial AI: urban-feature segmentation, UAV/Satellite imagery
+- NLP for Arabic, generative AI, content filtering, classification
 
-- [ZeroORM](https://github.com/RiadKatby/AspnetCoreExtensions/tree/main/ZeroORM) Yet another Micro ORM (Object Relational Mapper) for .NET platform with vision of Zero learning Curve, complexity, and latency
-- [Machine Learning for Everyone](https://github.com/RiadKatby/machine-learning-models) a series of Arabic articles for GitHub community intended for AI/ML literacy
+### ⚙️ Software Architecture & Platform Engineering
+- Scalable architectures, microservices, event-driven systems
+- Azure cloud, distributed systems, DevOps & CI/CD at enterprise scale
+- AI-native SDLC, GitHub Copilot rollout, developer productivity systems
 
-And off course I am always proud with sharing the knowledge of AI/ML with communities
+### 🔧 DevOps, MLOps & AI Productionization
+- Azure DevOps automation for large engineering organizations
+- End-to-end MLOps design for deep learning & classical ML systems
+- Agentic workflows + MCP tools inside enterprise environments
 
-- How to Build Chatbot using Microsoft Chatbot Services
-- Employ Speach to Text and Text to Speach in Chatbot
-- Artificiall Inteligence Applications and Challenges
-- End to end Machine Learning Projects (searis of 5 sessions 3 hours for each)
-- Machine Learning Classifications
-- Image Recognition and Opject Identification using Computer Vision of Azure Congnitive Services
+---
 
-<br/>
+# ❤️ Community Work & Open Source
 
-Also check out my 💬 [StackOverflow](https://stackoverflow.com/users/1726318/niklaus-wirth), 🔗 [LinkedIn](https://www.linkedin.com/in/morika/), and 🐦 [Twitter](https://twitter.com/morikapt) profiles as I have week AI/ML thread, and if you are a good swimmer send me and I will be happy to get a race 🏊
+- [**Machine Learning for Everyone**](https://a.co/d/dUIH9sH) – Arabic ML literacy series
+  A series of Arabic articles simplifying AI/ML for new learners.
+- [**ZeroORM**](https://www.nuget.org/packages/ZeroORM/) – micro ORM for .NET
+  A micro ORM for .NET built around simplicity and zero learning curve.
+- [**Workshops & sessions**](https://www.linkedin.com/in/morika/details/volunteering-experiences/) 
+  - Building AI Agents & chatbots
+  - Vision AI and object detection
+  - End-to-end machine learning lifecycle
+  - AI applications, misconceptions & best practices
 
-## Brief
+---
 
-- 🔭 I'm currently completing Machine Learning for Everyone Series as open-source articles if you are interested to support linguistically, scientifically, or graphically that will make me happy
-- 🌱 I’am currently re-sharpened my capabilities in statistics and probability
-- 🤔 I’m looking for help with improving [ZeroORM](https://github.com/RiadKatby/AspnetCoreExtensions/tree/main/ZeroORM) library.
-- 💬 Ask me about #dotnet, C#, MLOps, and DevOps in general.
-- 📫 Reach me out on [Twitter](https://twitter.com/morikapt), Or drop me an [email](mailto:morikapt@gmail.com).
-- ⚡ Fun fact: I started my coding journey with Microsoft Visual Basic 5.0 and Microsoft SQL Server 7 when **GoTo** statements were still a thing.
-- ❝ Favorite quote: "Code is like humor. If you have to explain it, it’s bad." - Cory House
+# 🌍 Connect with Me
+
+- [LinkedIn](https://www.linkedin.com/in/morika): thought leadership on AI, ML, and Data Science
+- [Twitter/X](https://x.com/morikapt): threads on AI, ML, SDLC, and research
+- [Web Site](https://reda.work)
+- Also… if you’re a good swimmer, challenge accepted 🏊😉
+---
+
+# 📌 Quick Facts
+
+- 🔭 Currently expanding **AI Agent Factory** and working on **urban feature segmentation research**
+- 🌱 Sharpening my math, statistics, and multimodal model design  
+- 🤝 Looking for collaborators on open-source AI/ML utilities  
+- 💬 Ask me about: AI Agents, .NET, C#, SDLC, MLOps, RAG, Vision Models, DevOps  
+- ⚡ Fun fact: My coding journey began on Visual Basic 5.0 + SQL Server 7 — back when `GoTo` was still popular  
+- ❝ Favorite quote: "Code is like humor. If you have to explain it, it’s bad." - Cory House.”  
