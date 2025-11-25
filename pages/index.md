@@ -40,7 +40,7 @@ I have earned professional and executive certifications from the following insti
 - **Harvard University**  *Boston, MA*
 - **SEI Carnegie Mellon University** *Pittsburgh, PENN*
 
-👉 For the full detailed list of certificates, please check: [**Certificates**](Certificates.md)
+👉 For the full detailed list of certificates, please check: [**Certificates**](/Certificates)
 
 ---
 
