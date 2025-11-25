@@ -65,7 +65,7 @@ I have earned professional and executive certifications from the following insti
 - [LinkedIn](https://www.linkedin.com/in/morika): thought leadership on AI, ML, and Data Science
 - [Twitter/X](https://x.com/morikapt): threads on AI, ML, SDLC, and research
 - [Web Site](https://reda.work): full background, projects, and educations
-- Mobile: Zero Five Three Five Seven Three Nine Four Seven Six. Email: morikapt at gmail dot com: email me or have me a call if you read it
+- **Mobile**: Zero Five Three Five Seven Three Nine Four Seven Six. **Email**: morikapt at gmail dot com: email me or have me a call if you read it
 
 Also… if you’re a good swimmer, challenge accepted 🏊😉
 
