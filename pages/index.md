@@ -8,6 +8,8 @@ I currently lead major AI transformation programs, driving initiatives such as:
 - **AI Agent Store platforms**  
 - **Talk to Map product**
 
+👉 [**Full  project list**](Projects.md), including detailed descriptions.
+
 ---
 
 # 🔥 What I Do
@@ -30,10 +32,24 @@ I currently lead major AI transformation programs, driving initiatives such as:
 
 ---
 
-# ❤️ Community Work & Open Source
+# 📜 Certificates
 
+I have earned professional and executive certifications from the following institutions:
+
+- **MIT – Massachusetts Institute of Technology**  *Boston, MA*
+- **Harvard University**  *Boston, MA*
+- **SEI Carnegie Mellon University** *Pittsburgh, PENN*
+
+👉 For the full detailed list of certificates, please check: [**Certificates**](Certificates.md)
+
+---
+
+# ❤️ Community Work & Publications
+
+- [**Practical Guide to Build AI Agent**](https://media.licdn.com/dms/document/media/v2/D4D1FAQFTEnhhPzHXtg/feedshare-document-pdf-analyzed/B4DZe2YS.hGsAc-/0/1751111516853?e=1764806400&v=beta&t=1v2XZYVYN0bLF0OWh0R2GiSeJ4drAgHCkbv5Yra5OKE) - Arabic Practical Guide for how to build AI Agent
 - [**Machine Learning for Everyone**](https://a.co/d/dUIH9sH) – Arabic ML literacy series
   A series of Arabic articles simplifying AI/ML for new learners.
+- [**Machine Learning Project Checklist**](https://github.com/RiadKatby/machine-learning-models/blob/main/machine-learning-project-checklist.pdf) -- 8 step-by-step guide to work systematically on your Machine Learning Project.
 - [**ZeroORM**](https://www.nuget.org/packages/ZeroORM/) – micro ORM for .NET
   A micro ORM for .NET built around simplicity and zero learning curve.
 - [**Workshops & sessions**](https://www.linkedin.com/in/morika/details/volunteering-experiences/) 
@@ -48,8 +64,11 @@ I currently lead major AI transformation programs, driving initiatives such as:
 
 - [LinkedIn](https://www.linkedin.com/in/morika): thought leadership on AI, ML, and Data Science
 - [Twitter/X](https://x.com/morikapt): threads on AI, ML, SDLC, and research
-- [Web Site](https://reda.work)
-- Also… if you’re a good swimmer, challenge accepted 🏊😉
+- [Web Site](https://reda.work): full background, projects, and educations
+- Mobile: Zero Five Three Five Seven Three Nine Four Seven Six. Email: morikapt at gmail dot com: email me or have me a call if you read it
+
+Also… if you’re a good swimmer, challenge accepted 🏊😉
+
 ---
 
 # 📌 Quick Facts
