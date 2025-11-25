@@ -8,6 +8,8 @@ I currently lead major AI transformation programs, driving initiatives such as:
 - **AI Agent Store platforms**  
 - **Talk to Map product**
 
+👉 [**Full  project list**](Projects.md), including detailed descriptions.
+
 ---
 
 # 🔥 What I Do
