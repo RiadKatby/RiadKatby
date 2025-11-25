@@ -30,6 +30,18 @@ I currently lead major AI transformation programs, driving initiatives such as:
 
 ---
 
+# 📜 Certificates
+
+I have earned professional and executive certifications from the following institutions:
+
+- **MIT – Massachusetts Institute of Technology**  *Boston, MA*
+- **Harvard University**  *Boston, MA*
+- **SEI Carnegie Mellon University** *Pittsburgh, PENN*
+
+👉 For the full detailed list of certificates, please check: [**Certificates**](Certificates.md)
+
+---
+
 # ❤️ Community Work & Publications
 
 - [**Practical Guide to Build AI Agent**](https://media.licdn.com/dms/document/media/v2/D4D1FAQFTEnhhPzHXtg/feedshare-document-pdf-analyzed/B4DZe2YS.hGsAc-/0/1751111516853?e=1764806400&v=beta&t=1v2XZYVYN0bLF0OWh0R2GiSeJ4drAgHCkbv5Yra5OKE) - Arabic Practical Guide for how to build AI Agent
