@@ -30,10 +30,12 @@ I currently lead major AI transformation programs, driving initiatives such as:
 
 ---
 
-# ❤️ Community Work & Open Source
+# ❤️ Community Work & Publications
 
+- [**Practical Guide to Build AI Agent**](https://media.licdn.com/dms/document/media/v2/D4D1FAQFTEnhhPzHXtg/feedshare-document-pdf-analyzed/B4DZe2YS.hGsAc-/0/1751111516853?e=1764806400&v=beta&t=1v2XZYVYN0bLF0OWh0R2GiSeJ4drAgHCkbv5Yra5OKE) - Arabic Practical Guide for how to build AI Agent
 - [**Machine Learning for Everyone**](https://a.co/d/dUIH9sH) – Arabic ML literacy series
   A series of Arabic articles simplifying AI/ML for new learners.
+- [**Machine Learning Project Checklist**](https://github.com/RiadKatby/machine-learning-models/blob/main/machine-learning-project-checklist.pdf) -- 8 step-by-step guide to work systematically on your Machine Learning Project.
 - [**ZeroORM**](https://www.nuget.org/packages/ZeroORM/) – micro ORM for .NET
   A micro ORM for .NET built around simplicity and zero learning curve.
 - [**Workshops & sessions**](https://www.linkedin.com/in/morika/details/volunteering-experiences/) 
@@ -48,7 +50,7 @@ I currently lead major AI transformation programs, driving initiatives such as:
 
 - [LinkedIn](https://www.linkedin.com/in/morika): thought leadership on AI, ML, and Data Science
 - [Twitter/X](https://x.com/morikapt): threads on AI, ML, SDLC, and research
-- [Web Site](https://reda.work)
+- [Web Site](https://reda.work): full background, projects, and educations
 - Also… if you’re a good swimmer, challenge accepted 🏊😉
 ---
 
