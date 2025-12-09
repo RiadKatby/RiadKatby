@@ -1,6 +1,6 @@
 # 👋 Hi there — I’m **Mohammed**
 
-A Technology Leader, AI Solutions Architect, and Researcher working at the intersection of **AI Agents**, **Enterprise Engineering**, and **Machine Learning**. I specialize in turning cutting-edge AI into scalable systems that deliver real impact across organizations.
+A Technology Leader, AI Solutions Architect, and [Researcher](/ArabicPaperReviews) working at the intersection of **AI Agents**, **Enterprise Engineering**, and **Machine Learning**. I specialize in turning cutting-edge AI into scalable systems that deliver real impact across organizations.
 
 I currently lead major AI transformation programs, driving initiatives such as:  
 - **AI Agent Factory**  
