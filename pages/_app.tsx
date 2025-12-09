@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
         />
       </Head>
       <article
-        className="prose mx-auto p-8"
+        className="prose mx-auto p-8 max-w-4xl"
         dir={isArabicPage ? "rtl" : "ltr"}
       >
         <Component {...pageProps} />
