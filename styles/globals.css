@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+[dir="rtl"] blockquote {
+  border-right-width: 0.25rem;
+  border-right-color: var(--tw-prose-quote-borders);
+  padding-right: 1rem;
+
+  border-left-width: 0;
+  border-left-color: unset;
+  padding-left: 0;
+}

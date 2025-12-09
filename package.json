@@ -20,6 +20,8 @@
     "next": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "remark-gfm": "^3.0.1",
+    "tailwindcss-rtl": "^0.9.0",
     "typescript": "4.8.4"
   },
   "devDependencies": {
