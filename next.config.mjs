@@ -12,8 +12,8 @@ const withMDX = createMDX({
   extension: /\.mdx?$/,
   options: {
     remarkPlugins: [
-      [remarkGfm, { footnotes: true }], 
-      remarkMath
+      remarkMath,
+      [remarkGfm, { footnotes: true }]
     ],
     rehypePlugins: [rehypeKatex]
   },
