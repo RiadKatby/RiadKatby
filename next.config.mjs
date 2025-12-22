@@ -1,7 +1,7 @@
 import createMDX from '@next/mdx'
 import remarkGfm from 'remark-gfm'
 import remarkMath from 'remark-math'
-import rehypeKatex from 'rehype-katex'
+import rehypeMathjax from 'rehype-mathjax'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -15,7 +15,7 @@ const withMDX = createMDX({
       remarkMath,
       [remarkGfm, { footnotes: true }]
     ],
-    rehypePlugins: [rehypeKatex, { strict: false }]
+    rehypePlugins: [rehypeMathjax]
   },
 })
 
