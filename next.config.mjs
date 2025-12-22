@@ -9,8 +9,8 @@ const nextConfig = {
 const withMDX = createMDX({
   extension: /\.mdx?$/,
   options: {
-    remarkPlugins: [remarkGfm],
-    rehypePlugins: [],
+    remarkPlugins: [remarkGfm, require('remark-math')],
+    rehypePlugins: [require('rehype-katex')]
   },
 })
 
