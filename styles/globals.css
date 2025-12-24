@@ -11,3 +11,9 @@
   border-left-color: unset;
   padding-left: 0;
 }
+
+/* Remove Tailwind Typography decorations from math elements */
+.prose code.language-math::before,
+.prose code.language-math::after {
+  content: none;
+}
