@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import { MDXProvider } from "@mdx-js/react";
 import "../styles/globals.css";
 
-import { SourceText } from "./components/SourceText";
+import { SourceText } from "../components/SourceText";
 
 import 'katex/dist/katex.min.css'
 
