@@ -84,8 +84,42 @@ across varying domains.">
 قدم الباحثون في هذه الورقة <abbr title="GeoSAM - Geographical Segment Anything هو نموذج تجشئة حيث أن فاك التشفير فيه مضبوط على صور الجغرافية باستخدام تلقينات نقطية ونصية آلية التوليد لتجزئة النبية التحتية للطرق والمشاة بدقة من الصور الجوية والفضائية.">نموذج التجشئة الجغرافي</abbr> بالاستفادة من تلك الميزة، وهو نموذج شامل مصمم لتجزئة البنية التحتية للتنقل من خلال تجزئة متعددة الفئات للطرق والنبية التحتية للمشاة.
 </SourceText>
 
+<br />
 
+<SourceText original="To address these challenges, we propose Geo-Point Generation (GPG), an automated prompt generation technique that generates point prompts for geographical images from a domain-specific pretrained model for precise spatial guidance.">
+يقترح الباحثون في هذه الورقة تقنية <abbr title="طريقة للتوليد التلقائي للتلقينات النقطية التي تشير إما إلى عنصر جغرافي على الصور foreground أو إلى خلفية الصورة background وذلك باستخدام نموذج تجزئة تقليدي مدرب مسبقاً لهذه الوظيفة فقط.">توليد النقاط الجغرافية</abbr> لمعالجة التحديات السابقة، وهي تقنية تولد تلقينات نقطية آلياً للصور الجغرافية من نموذج مُدرَّب مسبقًا خاص بمجال الصور الجغرافي، وذلك لتوفير توجيه مكاني دقيق.
+</SourceText>
+<SourceText original="It is complemented by text prompts for semantic clarity to resolve ambiguities inherent in pointbased guidance.">
+وتُكمَّل هذه التقنية بتلقينات نصية لتوضيح المعنى الدلالي وحل الغموض الكامن في التوجيه القائم على النقاط.
+</SourceText>
+<SourceText original="Point prompts focus the model on specific pixels, but a single pixel can often belong to multiple objects.">
+تلفت التلقينات النقطية تركيز النموذج على بكسلات مُحدَّدة، لكن غالباً ما ينتمي بكسل واحد على الصور إلى عدة كائنات.
+</SourceText>
+<SourceText original="Text prompts, containing semantic information about the class, clarify the object of interest and provide a broader understanding [37].">
+فتأتي التلقينات النصية، والتي تحتوي على معلومات دلالية حول صنف الكائن، لتقدم فهماً أوسع للكائن محل الاهتمام [^37].
+</SourceText>
+<SourceText original="This complementary design ensures precise geometrical guidance from point prompts and broader contextual understanding from text prompts, enhancing segmentation accuracy.">
+يضمن هذا التصميم المتكامل توجيهًا هندسيًا دقيقًا من التلقينات النقطية وفهمًا سياقيًا أوسع من التلقينات النصية، ما يُحسِّن دقة التجزئة.
+</SourceText>
 
+<br />
+
+<SourceText original="These multi-modal prompts fine-tune SAM through its lightweight decoder.">
+تضبط <abbr title="multi-modal prompts، تشير إلى الجمع بين أنواع التلقينات المختلفة كالجمع بين التلقينات النصية والتلقينات النقطية. سيستخدم هذا المصطلح بكثرة في هذه الورقة، حيث أن نموذج التجشئة الذي قام عليه العمل في هذه الورقة يقدم عدة أنواع من التلقينات وليست فقط التلقينات النصية المعروفة، إنما هناك أيضاً تلقين نقطي حيث يستطيع المستخدم تحديد نقطة واحدة على الكائن المراد تجزئته من الصورة، والتلقين القناع، حيث يستطيع المستخدم تلقين النموذج بمضلع حول الكائن المراد تجزئته، وأخير تلقين المربع حيث يستطيع رسم مربع على الكائن المراد تجزئته من الصورة، ليقوم نموذج التجشئة SAM باستخراج الكائن من الصورة.">التلقينات متعددة الوسائط</abbr> نموذج <abbr title="نحت لكلمتي تجزئة أي شيء، هو نموذج أساسي في مجال الرؤية الحاسوبية من تطوير شركة ميتا، يدعى SAM - Segment Anything">التجشئة</abbr> من خلال وحدة فك التشفير.
+</SourceText>
+<SourceText original="By integrating spatial precision with semantic context, we introduce Geographical SAM (GeoSAM), an end-to-end SAMbased model fine-tuned for multi-class segmentation of roads and pedestrian infrastructure.">
+قدم الباحثون في هذه الورقة <abbr title="GeoSAM - Geographical Segment Anything هو نموذج تجشئة (تجزئة أي شيء) حيث أن فاك التشفير مضبوط على صور الجغرافية باستخدام تلقينات نقطية ونصية آلية التوليد لتجزئة البنية التحتية للطرق والمشاة بدقة من الصور الجوية والفضائية.">المجشئ الجغرافي</abbr> من خلال دمج الدقة المكانية (عبر التلقين النقطي على الصورة) والسياق المكاني (عبر التلقين النصي الذي يصف الكائن)، كنموذج <abbr title="نحت لكلمتي تجزئة أي شيء، هو نموذج أساسي في مجال الرؤية الحاسوبية من تطوير شركة ميتا، يدعى SAM - Segment Anything">التجشئة</abbr> متكامل مُحسَّن لتجزئة الطرق والبنية التحتية للمشاة إلى فئات متعددة.
+</SourceText>
+<SourceText original="GeoSAM outperforms traditional CNNbased approaches [18, 17, 43], not only improving segmentation accuracy but also demonstrating the potential of combining natural language and visual interaction within foundation models for geographical imagery.">
+يتفوق <abbr title="GeoSAM - Geographical Segment Anything هو نموذج تجشئة (تجزئة أي شيء) حيث أن فاك التشفير مضبوط على صور الجغرافية باستخدام تلقينات نقطية ونصية آلية التوليد لتجزئة البنية التحتية للطرق والمشاة بدقة من الصور الجوية والفضائية.">المجشئ الجغرافي</abbr> على الأساليب التقليدية القائمة على شبكات الطي العصبية [^18] [^17] [^43]، ليس فقط بتحسين دقة التجزئة، بل أيضًا بإظهار إمكانية دمج اللغة الطبيعية والتفاعل المرئي ضمن <abbr title="نموذج كبير للرؤية الحاسوبية وغير مرتبط بمهمة محددة، دُرب مسبقاً على صور متنوعة وواسعة النطاق، ويمكن تكييفه مع مهام جديدة دون إعادة تدريبه، بتوجييه بإستخدام التلقينات.">النماذج الأساسية</abbr> للصور الجغرافية.
+</SourceText>
+<SourceText original="">تتلخص إسهامات الباحثون في ثلاثة جوانب: (1) الريادة في استخدام <abbr title="نحت لكلمتي تجزئة أي شيء، هو نموذج أساسي في مجال الرؤية الحاسوبية من تطوير شركة ميتا، يدعى SAM - Segment Anything">المجشئ</abbr> لتجزئة البنية التحتية للتنقل إلى فئات متعددة، من خلال دمج التلقينات النقطية والنصية في الصور الجغرافية.</SourceText>
+<SourceText original="(2) We introduce fine-tuning and automated prompt generation techniques that inject domain knowledge from traditional models via multi-modal prompts.">
+(2) تقديم تقنيات ضبط النماذج وتوليد التلقينات تلقائيًا، والتي تجلب المعرفة المتخصصة من النماذج التقليدية إلى النماذج الأساسية عبر التلقينات متعددة الوسائط.
+</SourceText>
+<SourceText original="(3) We conduct extensive evaluations on datasets from two cities, demonstrating GeoSAM’s strong performance and generalizability across diverse locations.">
+(3) إجراء تقييم شامل على مجموعات بيانات مدينتين، ما أظهر الأداء القوي لنموذج التجشئة الجغرافي وقابليته للتعميم عبر مواقع متنوعة.
+</SourceText>
 
 ## المراجع
 [^3]: K. Cha, J. Seo, and T. Lee. A billion-scale foundation model for remote sensing images. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2024.
