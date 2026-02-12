@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
   // Detect if current page is an Arabic page
-  const arabicPages = ["/ArabicPaperReviews", "/DeTr", "/Transformer", "/ImageNet", "/GeoSAM", "/ResNet"];
+  const arabicPages = ["/ArabicPaperReviews", "/DeTr", "/Transformer", "/ImageNet", "/GeoSAM", "/ResNet", "/terminologies/ObjectDetection"];
   const isArabicPage = arabicPages.includes(router.pathname);
 
   return (
