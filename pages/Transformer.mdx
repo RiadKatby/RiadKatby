@@ -56,12 +56,12 @@
 
 ## <SourceText original="Background">الخلفية</SourceText>
 
-<SourceText original="The goal of reducing sequential computation also forms the foundation of the Extended Neural Graphical Processing Unit [20], ByteNet [15] and ConvS2S [8], all of which use convolutional neural networks as basic building block, computing hidden representations in parallel for all input and output positions.">شكل هدف تقليل العمليات الحسابية التسلسلية أساسًا للنماذج وحدة المعالجة الرسومية العصبية الموسعة [20]، وشبكة بايت [15]، وطي سلسلة لسلسلة [8]، تستخدم تلك النماذج شبكات الطي العصبية كحجر بناء أساسي، حيث تحسب التمثيلات المخفية بالتوازي لجميع مواضع الدخل والخرج.</SourceText>
+<SourceText original="The goal of reducing sequential computation also forms the foundation of the Extended Neural Graphical Processing Unit [20], ByteNet [15] and ConvS2S [8], all of which use convolutional neural networks as basic building block, computing hidden representations in parallel for all input and output positions.">شكل هدف تقليل العمليات الحسابية التسلسلية أساسًا للنماذج وحدة المعالجة الرسومية العصبية الموسعة [^20]، وشبكة بايت [^15]، وطي سلسلة لسلسلة [^8]، تستخدم تلك النماذج شبكات الطي العصبية كحجر بناء أساسي، حيث تحسب التمثيلات المخفية بالتوازي لجميع مواضع الدخل والخرج.</SourceText>
 
 
 <SourceText original="In these models, the number of operations required to relate signals from two arbitrary input or output positions grows in the distance between positions, linearly for ConvS2S and logarithmically for ByteNet.">يزداد عدد العمليات اللازمة لربط الإشارات في تلك النماذج من موضعَي دخل أو خرج عشوائيين مع ازدياد المسافة بينهما، خطيًا في نموذج طي سلسلة لسلسلة ولوغاريتميًا في شبكة بايت.</SourceText>
 
-<SourceText original="This makes it more difficult to learn dependencies between distant positions [11].">ما يجعل تعلم العلاقات بين المواضع البعيدة أكثر صعوبة [11].</SourceText>
+<SourceText original="This makes it more difficult to learn dependencies between distant positions [11].">ما يجعل تعلم العلاقات بين المواضع البعيدة أكثر صعوبة [^11].</SourceText>
 
 <SourceText original="In the Transformer this is reduced to a constant number of operations, albeit at the cost of reduced effective resolution due to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as described in section 3.2.">يُختزل عدد العمليات الحسابية في المحول إلى عدد ثابت، وإن كان ذلك على حساب انخفاض الدقة الفعالة نتيجةً لحساب متوسط ​​المواضع موزوناً بالانتباه، وهو تأثير عالجه الباحثون باستخدام آلية الانتباه متعدد الرؤوس كما هو موضح في القسم 3.2.</SourceText>
 
@@ -69,7 +69,7 @@
 
 <SourceText original="Self-attention, sometimes called intra-attention is an attention mechanism relating different positions of a single sequence in order to compute a representation of the sequence.">الانتباه الذاتي، يُسمى أحيانًا بالانتباه الداخلي، هو آلية انتباه تربط بين المواضع المختلفة لسلسلة واحدة بهدف حساب تمثيل لهذه السلسلة.</SourceText>
 
-<SourceText original="Self-attention has been used successfully in a variety of tasks including reading comprehension, abstractive summarization, textual entailment and learning task-independent sentence representations [4, 22, 23, 19].">وقد استُخدم الانتباه الذاتي بنجاح في مجموعة متنوعة من المهام، بما في ذلك فهم القراءة، والتلخيص التجريدي، والاستلزام النصي، وتعلم تمثيلات الجمل المستقلة عن المهمة [4، 22، 23، 19].</SourceText>
+<SourceText original="Self-attention has been used successfully in a variety of tasks including reading comprehension, abstractive summarization, textual entailment and learning task-independent sentence representations [4, 22, 23, 19].">وقد استُخدم الانتباه الذاتي بنجاح في مجموعة متنوعة من المهام، بما في ذلك فهم القراءة، والتلخيص التجريدي، والاستلزام النصي، وتعلم تمثيلات الجمل المستقلة عن المهمة [^4] [^22] [^23] [^19].</SourceText>
 
 
 ## <SourceText original="Source">المصدر</SourceText>
@@ -77,14 +77,21 @@ https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd05
 
 ## <SourceText original="References">المراجع</SourceText>
 [^2]: Dzmitry Bahdanau , Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly learning to align and translate. CoRR, abs/1409.0473, 2014.
+[^4]: Jianpeng Cheng, Li Dong, and Mirella Lapata. Long short-term memory-networks for machine reading. arXiv preprint arXiv:1601.06733, 2016.
 [^5]: Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Fethi Bougares, Holger Schwenk, and Yoshua Bengio. Learning phrase representations using rnn encoder-decoder for statistical machine translation. CoRR, abs/1406.1078, 2014.
 [^7]: Junyoung Chung, Çaglar Gülçehre, Kyunghyun Cho, and Yoshua Bengio. Empirical evaluation of gated recurrent neural networks on sequence modeling. CoRR, abs/1412.3555, 2014.
+[^8]: Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, and Yann N. Dauphin. Convolutional sequence to sequence learning. arXiv preprint arXiv:1705.03122v2, 2017.
+[^11]: Sepp Hochreiter, Yoshua Bengio, Paolo Frasconi, and Jürgen Schmidhuber. Gradient flow in recurrent nets: the difficulty of learning long-term dependencies, 2001.
 [^12]: Sepp Hochreiter and Jürgen Schmidhuber. Long short-term memory. Neural computation, 9(8):1735–1780, 1997.
 [^13]: Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. Exploring the limits of language modeling. arXiv preprint arXiv:1602.02410, 2016.
+[^15]: Nal Kalchbrenner, Lasse Espeholt, Karen Simonyan, Aaron van den Oord, Alex Graves, and Koray Kavukcuoglu. Neural machine translation in linear time. arXiv preprint arXiv:1610.10099v2, 2017.
 [^16]: Yoon Kim, Carl Denton, Luong Hoang, and Alexander M. Rush. Structured attention networks. In International Conference on Learning Representations, 2017.
 [^18]: Oleksii Kuchaiev and Boris Ginsburg. Factorization tricks for LSTM networks. arXiv preprint arXiv:1703.10722, 2017.
+[^19]: Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen Zhou, and Yoshua Bengio. A structured self-attentive sentence embedding. arXiv preprint arXiv:1703.03130, 2017.
+[^20]: Samy Bengio Łukasz Kaiser. Can active memory replace attention? In Advances in Neural Information Processing Systems, (NIPS), 2016.
 [^21]: Minh-Thang Luong, Hieu Pham, and Christopher D Manning. Effective approaches to attentionbased neural machine translation. arXiv preprint arXiv:1508.04025, 2015.
 [^22]: Ankur Parikh, Oscar Täckström, Dipanjan Das, and Jakob Uszkoreit. A decomposable attention model. In Empirical Methods in Natural Language Processing, 2016.
+[^23]: Romain Paulus, Caiming Xiong, and Richard Socher. A deep reinforced model for abstractive summarization. arXiv preprint arXiv:1705.04304, 2017.
 [^26]: Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean. Outrageously large neural networks: The sparsely-gated mixture-of-experts layer. arXiv preprint arXiv:1701.06538, 2017.
 [^29]: Ilya Sutskever, Oriol Vinyals, and Quoc VV Le. Sequence to sequence learning with neural networks. In Advances in Neural Information Processing Systems, pages 3104–3112, 2014.
 [^31]: Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, et al. Google’s neural machine translation system: Bridging the gap between human and machine translation. arXiv preprint arXiv:1609.08144, 2016.
