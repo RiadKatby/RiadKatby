@@ -54,6 +54,23 @@
 
 <SourceText original="The Transformer allows for significantly more parallelization and can reach a new state of the art in translation quality after being trained for as little as twelve hours on eight P100 GPUs.">يُتيح نموذج المحول درجة عالية جداً من الحوسبة المتوازية، ما يمكنه من تحقيق مستوى جديد من الجودة في الترجمة بعد تدريب لا يتجاوز اثنتي عشرة ساعة على ثماني وحدات معالجة رسومية.</SourceText>
 
+## <SourceText original="Background">الخلفية</SourceText>
+
+<SourceText original="The goal of reducing sequential computation also forms the foundation of the Extended Neural Graphical Processing Unit [20], ByteNet [15] and ConvS2S [8], all of which use convolutional neural networks as basic building block, computing hidden representations in parallel for all input and output positions.">شكل هدف تقليل العمليات الحسابية التسلسلية أساسًا للنماذج وحدة المعالجة الرسومية العصبية الموسعة [20]، وشبكة بايت [15]، وطي سلسلة لسلسلة [8]، تستخدم تلك النماذج شبكات الطي العصبية كحجر بناء أساسي، حيث تحسب التمثيلات المخفية بالتوازي لجميع مواضع الدخل والخرج.</SourceText>
+
+
+<SourceText original="In these models, the number of operations required to relate signals from two arbitrary input or output positions grows in the distance between positions, linearly for ConvS2S and logarithmically for ByteNet.">يزداد عدد العمليات اللازمة لربط الإشارات في تلك النماذج من موضعَي دخل أو خرج عشوائيين مع ازدياد المسافة بينهما، خطيًا في نموذج طي سلسلة لسلسلة ولوغاريتميًا في شبكة بايت.</SourceText>
+
+<SourceText original="This makes it more difficult to learn dependencies between distant positions [11].">ما يجعل تعلم العلاقات بين المواضع البعيدة أكثر صعوبة [11].</SourceText>
+
+<SourceText original="In the Transformer this is reduced to a constant number of operations, albeit at the cost of reduced effective resolution due to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as described in section 3.2.">يُختزل عدد العمليات الحسابية في المحول إلى عدد ثابت، وإن كان ذلك على حساب انخفاض الدقة الفعالة نتيجةً لحساب متوسط ​​المواضع موزوناً بالانتباه، وهو تأثير عالجه الباحثون باستخدام آلية الانتباه متعدد الرؤوس كما هو موضح في القسم 3.2.</SourceText>
+
+<br />
+
+<SourceText original="Self-attention, sometimes called intra-attention is an attention mechanism relating different positions of a single sequence in order to compute a representation of the sequence.">الانتباه الذاتي، يُسمى أحيانًا بالانتباه الداخلي، هو آلية انتباه تربط بين المواضع المختلفة لسلسلة واحدة بهدف حساب تمثيل لهذه السلسلة.</SourceText>
+
+<SourceText original="Self-attention has been used successfully in a variety of tasks including reading comprehension, abstractive summarization, textual entailment and learning task-independent sentence representations [4, 22, 23, 19].">وقد استُخدم الانتباه الذاتي بنجاح في مجموعة متنوعة من المهام، بما في ذلك فهم القراءة، والتلخيص التجريدي، والاستلزام النصي، وتعلم تمثيلات الجمل المستقلة عن المهمة [4، 22، 23، 19].</SourceText>
+
 
 ## <SourceText original="Source">المصدر</SourceText>
 https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
