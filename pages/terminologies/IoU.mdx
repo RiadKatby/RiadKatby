@@ -1,1 +1,51 @@
+# IoU - Intersection over Union التقاطع على الاجتماع
+
+سنتعلم كيف تقيس نسبة التقاطع على الاجتماع دقة اكتشاف الكائنات، وسنستكشف دورها في تقييم نماذج اكتشاف الكائنات وتحسين الدقة المكانية.
+Learn how Intersection over Union (IoU) measures object detection accuracy. Explore its role in evaluating Ultralytics YOLO26 and optimizing spatial precision.
+
+تُستخدم نسبة التقاطع على الاجتماع IoU كمقياس أساسي لتقييم دقة نماذج اكتشاف الكائنات في الرؤية الحاسوبية من خلال قياس التداخل بين حدود الكائن في مجموعة البيانات وحدوده المكتشفة من النموذج.
+Intersection over Union (IoU) is a fundamental metric used in computer vision to quantify the accuracy of an object detector by measuring the overlap between two boundaries.
+
+كما تُسمى مؤشر جاكارد غالبياً، حيث تُقييم نسبة التقاطع على الاجتماع مدى تطابق مربع الإحاطة الحقيقي للكائن (كما حدده المُصنف البشري)، مع مربع الإحاطة المُتوقع (المكتشف من النموذج).
+Often technically referred to as the Jaccard Index, IoU evaluates how well a predicted bounding box aligns with the ground truth box—the actual location of the object as labeled by a human annotator. 
+
+تتراوح كما أي نسبة قيمتها بين 0 و 1، حيث يشير 0 إلى عدم وجود تداخل، بينما يُمثل 1 تطابقًا تامًا بكسلًا بكسلًا.
+The score ranges from 0 to 1, where 0 indicates no overlap and 1 represents a perfect pixel-for-pixel match.
+
+يُعدّ هذ المقياس ضروريًا لتقييم الدقة المكانية لنماذج كشف الكائنات، إذ يتجاوز مهام التصنيف البسيط ويضمن معرفة النظام مكان الجسم بدقة.
+This metric is essential for assessing the spatial precision of models like YOLO26, moving beyond simple classification to ensure the system knows exactly where an object is located.
+
+## آلية قياس التّداخل
+The Mechanics of Measuring Overlap
+
+مفهوم تقاطع الاتحاد (IoU) بديهي: فهو يحسب نسبة مساحة تقاطع مربعين على المساحة الكلية التي يغطيها المربعان معًا (الاتحاد).
+The concept behind IoU is intuitive: it calculates the ratio of the area where two boxes intersect to the total area covered by both boxes combined (the union).
+
+يُعد مقياس التقاطع على الاتحاد مقياساً ذي تدريج لامتغير، حيث أن قسمة التقاطع على الاجتماع تستنظم قيمته بين الصفر والواحد.
+Because this calculation normalizes the overlap by the total size of the objects, IoU serves as a scale-invariant metric. 
+
+ما يعني أنه يوفر تقييمًا عادلًا للأداء سواءً كان نموذج الرؤية الحاسوبية يكتشف سفينة شحن ضخمة أو حشرة صغيرة.
+This means it provides a fair assessment of performance regardless of whether the computer vision model is detecting a massive cargo ship or a tiny insect.
+
+
+يعمل مؤشر التقاطع على الاجتماع كمعيار أساسي ـ في عملية اكتشاف الكائنات المعيارية ـ لتحديد ما إذا كان التوقع "إيجابي حقيقي" أو "إيجابي خاطئ".
+In standard object detection workflows, IoU is the primary filter for determining whether a prediction is a "True Positive" or a "False Positive."
+
+يحدد المهندسون أثناء التقييم عتبة معينة عادةً ما تكون 0.50 أو 0.75.
+During evaluation, engineers set a specific threshold—commonly 0.50 or 0.75.
+
+ويُعتبر الكشف صحيحًا إذا تجاوزت قيمة التداخل تلك العتبة.
+If the overlap score exceeds this number, the detection is counted as correct.
+
+تُعدّ عملية تحديد العتبة هذه شرطًا أساسيًا لحساب مقاييس الأداء الإجمالية، مثل متوسط متوسطات الدقة لكل الفئات (mAP)، الذي يلخص دقة النموذج عبر مختلف الفئات ومستويات الصعوبة.
+This thresholding process is a prerequisite for calculating aggregate performance metrics like Mean Average Precision (mAP), which summarizes model accuracy across different classes and difficulty levels.
+
+
+## التقاطع على الاجتماع في تدريب النماذج وتحسينها
+Intersection over Union in Model Training and Optimization
+
+تلعب نسبة التقاطع على الاجتماع دوراً مهماً في تدريب شبكات التعلم العميق إلى جانب كونها مؤشر تقييم.
+Beyond serving as a scorecard, IoU is an active component in the training of deep learning networks.
+
+
 
