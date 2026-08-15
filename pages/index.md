@@ -71,7 +71,7 @@ Also… if you’re a good swimmer, challenge accepted 🏊😉
 
 ---
 
-# Me and Mens
+# 👨🏻‍🤝‍👨🏼 Me and Men
 - [Zawiya Helalia](/diary/Masoud): How I know Shikh Masoud Khayata
 - [Alnour Mosque](/diary/Fakhry): How I know Shaikh Fakhry Alsayad
 
