@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
     "/terminologies/ObjectDetection",
     "/diary/Fakhry",
     "/diary/Masoud",
-    "algorithms/k-center-problem"
+    "/algorithms/k-center-problem"
   ];
   const isArabicPage = arabicPages.includes(router.pathname);
 
