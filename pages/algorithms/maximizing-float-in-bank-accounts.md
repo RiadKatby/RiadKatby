@@ -1,47 +1,8 @@
 # 2.5 Maximizing float in bank accounts
-تعظيم فترة التعويم في الحسابات المصرفية
 
-In the days before quick electronic check clearing, it was often advantageous for large corporations to maintain checking accounts in various locations in order to maximize float.
-في الحقبة التي سبقت ظهور أنظمة المقاصة الإلكترونية السريعة للشيكات، كان مفيداً غالباً للشركات الكبرى الاحتفاظ بحسابات جارية في مواقع متعددة بهدف تعظيم ما يٌعرف بـ "التعويم".
+In the days before quick electronic check clearing, it was often advantageous for large corporations to maintain checking accounts in various locations in order to maximize float. The *float* is the time between making a payment by check and the time that the funds for that payment are deducted from the company’s banking account. During that time, the company can continue to accrue interest on the money. Float can also be used by scam artists for *check kiting*: covering a deficit in the checking account in one bank by writing a check against another account in another bank that also has insufficient funds — then a few days later covering this deficit with a check written against the first account.
 
-The *float* is the time between making a payment by check and the time that the funds for that payment are deducted from the company’s banking account.
-ويُقصد بالتعويم الفترة الزمنية الفاصلة بين إصدار الدفعة بموجب شيك وبين لحظة خصم قيمة ذلك الشيك فعلياً من الحساب المصرفي للشركة.
-
-During that time, the company can continue to accrue interest on the money.
-تتيح هذه الفترة للشركة الاستمرار في كسب الفوائد على تلك الأموال.
-
-Float can also be used by scam artists for *check kiting*: covering a deficit in the checking account in one bank by writing a check against another account in another bank that also has insufficient funds — then a few days later covering this deficit with a check written against the first account.
-كما يمكن استغلال فترة التعويم هذه من قِبَل المحتالين لممارسة ما يُعرف بـ "التلاعب بالشيكات" (check kiting)؛ وهي عملية تتضمن تغطية عجز في حساب جارٍ لدى أحد البنوك عن طريق تحرير شيك مسحوب على حساب آخر في بنك ثانٍ (يعاني هو الآخر من نقص في الرصيد)، ثم تغطية هذا العجز لاحقاً -بعد بضعة أيام- بشيك آخر مسحوب على الحساب الأول.
-
-
-
-We can model the problem of maximizing float as follows.
-يمكن صياغة مسألة تعظيم "الرصيد العائم" على النحو التالي
-
-Suppose we wish to open up to $k$ bank accounts so as to maximize our float.
-لنفترض أننا نرغب في فتح ما يصل إلى $k$ حساباً مصرفياً بهدف تعظيم الرصيد العائم لدينا.
-
-Let $B$ be the set of banks where we can potentially open accounts, and let $P$ be the set of payees to whom we regularly make payments.
-ولتكن $B$ هي مجموعة البنوك التي يمكننا فتح حسابات فيها، ولتكن $P$ هي مجموعة المستفيدين الذين نسدد لهم المدفوعات بانتظام.
-
-Let $v_{ij} \geq 0$ be the value of the float created by paying payee $j \in P$ from bank account $i \in B$;
-وليكن $v_{ij} \geq 0$ هو قيمة الرصيد العائم الناتج عن السداد للمستفيد $j \in P$ من خلال الحساب المصرفي $i \in B$؛
-
-this may take into account the amount of time it takes for a check written to $j$ to clear at $i$, the interest rate at bank $i$, and other factors.
-حيث قد تأخذ هذه القيمة في الاعتبار المدة الزمنية اللازمة لتحصيل الشيك المحرر للمستفيد $j$ عبر البنك $i$، ومعدل الفائدة في البنك $i$، وعوامل أخرى.
-
-Then we wish to find a set $S \subseteq B$ of banks at which to open accounts such that $|S| \leq k$.
-ونهدف إلى اختيار مجموعة $S \subseteq B$ من البنوك لفتح حسابات فيها بحيث يكون عددها $|S| \leq k$.
-
-Clearly we will pay payee $j \in P$ from the account $i \in S$ that maximizes $v_{ij}$.
-ومن الواضح أننا سنسدد المدفوعات للمستفيد $j \in P$ من الحساب $i \in S$ الذي يحقق أقصى قيمة لـ $v_{ij}$.
-
-So we wish to find $S \subseteq B$, $|S| \leq k$, that maximizes $\sum_{j \in P} \max_{i \in S} v_{ij}$.
-وبالتالي، فإننا نسعى لإيجاد مجموعة $S \subseteq B$ (بحيث $|S| \leq k$) تعظّم المقدار $\sum_{j \in P} \max_{i \in S} v_{ij}$.
-
-We define $v(S)$ to be the value of this objective function for $S \subseteq B$.
-ونعرّف $v(S)$ على أنها قيمة دالة الهدف هذه للمجموعة $S \subseteq B$.
-
+We can model the problem of maximizing float as follows. Suppose we wish to open up to $k$ bank accounts so as to maximize our float. Let $B$ be the set of banks where we can potentially open accounts, and let $P$ be the set of payees to whom we regularly make payments. Let $v_{ij} \geq 0$ be the value of the float created by paying payee $j \in P$ from bank account $i \in B$; this may take into account the amount of time it takes for a check written to $j$ to clear at $i$, the interest rate at bank $i$, and other factors. Then we wish to find a set $S \subseteq B$ of banks at which to open accounts such that $|S| \leq k$. Clearly we will pay payee $j \in P$ from the account $i \in S$ that maximizes $v_{ij}$. So we wish to find $S \subseteq B$, $|S| \leq k$, that maximizes $\sum_{j \in P} \max_{i \in S} v_{ij}$. We define $v(S)$ to be the value of this objective function for $S \subseteq B$.
 
 A natural greedy algorithm is as follows: we start with $S = \emptyset$, and while $|S| < k$, find the bank $i \in B$ that most increases the objective function, and add it to $S$. This algorithm is summarized in Algorithm 2.2.
 
